@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const cors = require("cors");
 require("dotenv").config();
-const url = process.env.mongo_url;
+const url = "mongodb+srv://iamdk353:12345@nodeexpresspractice.qitirk2.mongodb.net/taskManager?retryWrites=true&w=majority";
 const connect = require("./DB/connect");
 app.use(express.json());
 app.use(cors());

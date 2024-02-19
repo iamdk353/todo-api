@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "app":"node app.js",
     "server": "nodemon app.js",
     "style": "npx tailwindcss -i ./frontEnd/styles/input.css -o ./frontEnd/styles/style.css --watch"
   },
